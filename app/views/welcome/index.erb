@@ -1,0 +1,24 @@
+<div class='ui container'>
+  <h1>Users and such</h1>
+  <h3>Add a user</h3>
+  <form class='ui form' id='user-form'>
+    <div class='fields'>
+      <div class='required field'>
+        <label>First Name</label>
+        <input required="required" name="first_name"type="text" placeholder="First Name"/>
+      </div>
+      <div class='required field'>
+        <label>Last Name</label>
+        <input required="required" name="last_name"type="text" placeholder="Last Name"/>
+      </div>
+      <div class='field'>
+        <label>Phone Number</label>
+        <input name="phone_number"type="tel" placeholder="555-555-5555"/>
+      </div>
+
+    </div>
+    <input type="submit" class="ui button positive" id="user-submit"/>
+  </form>
+  <hr/>
+  <ul id='user-list'></ul>
+</div>
